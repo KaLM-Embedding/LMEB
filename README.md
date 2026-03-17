@@ -26,6 +26,12 @@ Note: If you want to evaluate the NV-Embed-v2 model, install the dependencies fr
 pip install -r requirements_nv.txt
 ```
 
+## Data
+
+```bash
+huggingface-cli download --repo-type dataset --resume-download KaLM-Embedding/LMEB --local-dir ./eval_data
+```
+
 ## Evaluation
 Run LMEB evaluation WITH task-specific instructions (w_inst = with instruction)
 ```bash
