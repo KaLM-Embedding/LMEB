@@ -131,6 +131,8 @@ for evaluating embedding models in complex, real-world, memory-intensive scenari
   <img src="./figures/corr.jpg" width="60%" />
 </p>
 
+## Acknowledgement
+We sincerely thank the MTEB (Massive Text Embedding Benchmark) project (https://github.com/embeddings-benchmark/mteb) and all its contributors and maintainers for providing the standardized evaluation framework for embedding models.
 
 ## Citation
 If you find this benchmark useful, please consider giving a star and citation.
@@ -145,6 +147,10 @@ If you find this benchmark useful, please consider giving a star and citation.
       url={https://arxiv.org/abs/2603.12572}, 
 }
 ```
+
+
+
+
 
 ## Contact
 If you encounter any issue, feel free to contact us via the email: <zhaoxinping@stu.hit.edu.cn> or <xinpingzhao@slai.edu.cn>
