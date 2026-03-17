@@ -15,6 +15,22 @@
   </a>
 </p>
 
+## Introduction
+
+Welcome to the **Long-horizon Memory Embedding Benchmark (LMEB)**! Unlike existing text embedding benchmarks that narrowly focus on passage retrieval, LLMEB is designed to evaluate embedding models' ability to handle **complex, long-horizon memory retrieval tasks**, focusing on fragmented, context-dependent, and temporally distant information. LMEB spans **22 diverse datasets** and **193 retrieval tasks**, across **4 memory types**:
+
+- 📅 **Episodic Memory** involves the retrieval of past events linked to temporal cues, entities, contents, and spatial contexts. The ability to effectively retrieve and utilize episodic memories is critical for enhancing adaptability, decision-making, and temporal
+reasoning in complex, real-world tasks.
+- 💬 **Dialogue Memory**:  focuses on maintaining context across multi-turn interactions, enabling systems to recall previous dialogue turns and user preferences. This facilitates coherent conversations and improves the system’s ability to adapt and provide personalized responses over time. 
+- 📚 **Semantic Memory**:  involves recalling general knowledge and facts about the world, independent of time or specific context. Unlike episodic memory, semantic memory is stable, generalizable, and not tied to specific events. It forms the foundation for memory-augmented reasoning and adaptive knowledge utilization.
+- 🔧 **Procedural Memory**: supports the retrieval of learned skills and action sequences, which are essential for tasks that require problem-solving and multi-step reasoning. It is critical for automating and generalizing task-oriented experiences, especially in agentic systems and reinforcement learning systems.
+
+## Why LMEB?
+
+LMEB fills a crucial gap in current embedding benchmarks, offering a standardized and reproducible evaluation that focuses on **long-term memory retrieval**. By utilizing both AI-generated and human-annotated datasets, LMEB provides a **rigorous testbed** for embedding models' ability to handle **long-horizon memory retrieval**.
+
+By evaluating the memory retrieval capabilities of embedding models, **a crucial ability for memory-augmented systems like OpenClaw**, LMEB helps OpenClaw identify the most suitable embedding models, **enhancing its ability to adapt, remember, and make personalized, user-aware decisions.**
+
 ## Enviroment
 ```bash
 conda create -n lmeb python==3.10
