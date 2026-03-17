@@ -15,6 +15,12 @@
   </a>
 </p>
 
+## Why LMEB?
+
+LMEB fills a crucial gap in current embedding benchmarks, offering a standardized and reproducible evaluation that focuses on **long-term memory retrieval**. By utilizing both AI-generated and human-annotated datasets, LMEB provides a **rigorous testbed** for embedding models' ability to handle **long-horizon memory retrieval**.
+
+By evaluating the memory retrieval capabilities of embedding models, **a crucial ability for memory-augmented systems like OpenClaw🦞**, LMEB helps OpenClaw 🦞 identify the most suitable embedding models, **enhancing its ability to adapt, remember, and make personalized, user-aware decisions.**
+
 ## Introduction
 
 Welcome to the **Long-horizon Memory Embedding Benchmark (LMEB)**! Unlike existing text embedding benchmarks that narrowly focus on passage retrieval, LLMEB is designed to evaluate embedding models' ability to handle **complex, long-horizon memory retrieval tasks**, focusing on fragmented, context-dependent, and temporally distant information. LMEB spans **22 diverse datasets** and **193 retrieval tasks**, across **4 memory types**:
@@ -29,12 +35,6 @@ reasoning in complex, real-world tasks.
   <img src="./figures/fram.jpg" width="57%" style="display:inline-block" />
   <img src="./figures/taxo.jpg" width="42%" style="display:inline-block" />
 </p>
-
-## Why LMEB?
-
-LMEB fills a crucial gap in current embedding benchmarks, offering a standardized and reproducible evaluation that focuses on **long-term memory retrieval**. By utilizing both AI-generated and human-annotated datasets, LMEB provides a **rigorous testbed** for embedding models' ability to handle **long-horizon memory retrieval**.
-
-By evaluating the memory retrieval capabilities of embedding models, **a crucial ability for memory-augmented systems like OpenClaw🦞**, LMEB helps OpenClaw 🦞 identify the most suitable embedding models, **enhancing its ability to adapt, remember, and make personalized, user-aware decisions.**
 
 ## Enviroment
 ```bash
