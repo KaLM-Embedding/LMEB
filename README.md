@@ -27,7 +27,7 @@ pip install -r requirements_nv.txt
 ```
 
 ## Data
-
+The LMEB benchmark dataset is required to run the evaluation. Download the dataset to the `eval_data` directory using the following command:
 ```bash
 huggingface-cli download --repo-type dataset --resume-download KaLM-Embedding/LMEB --local-dir ./eval_data
 ```
