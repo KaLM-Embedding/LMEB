@@ -61,3 +61,12 @@ bash ./scripts/run_lmeb_wo_inst.sh
 - **encode_kwargs**: JSON-formatted keyword arguments passed to the embedding encoding process. Key sub-parameters include:
   - `normalize_embeddings`: Whether to normalize the final embeddings (consistent with `do_norm` for alignment).
   - `show_progress_bar`: Whether to display a progress bar during encoding (set to `true` for real-time progress tracking).
+
+## Summarization
+```bash
+bash summary.sh
+```
+- **embedding_model_name**: A variable specifying the unique identifier of the embedding model (e.g., "local__KaLM_Embedding_V2.5"). It is used to locate the model's evaluation result directory under ./lmeb_results/.
+- **1st argument**:: Path to the directory storing evaluation results (e.g., "./lmeb_results/local__KaLM_Embedding_V2.5/wo_inst"). 
+- **2nd argument**: Name of the benchmark suite to summarize (e.g., "LMEB"). 
+- **3rd argument (optional)**: Specific metric name to summarize (e.g., "R_cap_at_10"). ndcg@10 by default.
