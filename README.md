@@ -1,4 +1,4 @@
-# 🌟 LMEB: Long-horizon Memory Embedding Benchmark 🌟
+# 🌟LMEB: Long-horizon Memory Embedding Benchmark🌟
 
 <p align="center">
   <a href="https://huggingface.co/datasets/KaLM-Embedding/LMEB">
