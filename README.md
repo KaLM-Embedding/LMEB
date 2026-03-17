@@ -91,3 +91,60 @@ bash summary.sh
 - **1st argument**:: Path to the directory storing evaluation results (e.g., "./lmeb_results/local__KaLM_Embedding_V2.5/wo_inst"). 
 - **2nd argument**: Name of the benchmark suite to summarize (e.g., "LMEB"). 
 - **3rd argument (optional)**: Specific metric name to summarize (e.g., "R_cap_at_10"). ndcg@10 by default.
+
+## Statistics of LMEB
+
+<p align="center">
+  <img src="./figures/stat.jpg" width="100%" />
+</p>
+
+## Main Results
+
+- **LMEB Benchmark Offers a Reasonable Level of Difficulty**
+- **Larger Embedding Models Do Not Always Perform Better**
+- **The Impact of Task Instructions on Model Performance Varies**
+
+
+<p align="center">
+  <img src="./figures/main_wo_inst.jpg" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./figures/main_w_inst.jpg" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./figures/wo_w_inst_varry.jpg" width="100%" />
+</p>
+
+## Correlation Analysis
+
+- **LMEB and MTEB Exhibit Orthogonality in Evaluation Capacities**: The correlation analysis between LMEB and MTEB (eng, v2) (retrieval subset) shows low Pearson and Spearman
+correlation coefficients of **-0.115** and **-0.130**, respectively, demonstrating that the two benchmarks are
+orthogonal in the domains they evaluate. While MTEB mainly focuses on traditional passage retrieval,
+LMEB is tailored to evaluate long-horizon memory retrieval, which requires handling fragmented,
+context-dependent, and temporally distant information. This orthogonality emphasizes the unique
+value of LMEB in assessing long-term memory retrieval capabilities, making it a crucial benchmark
+for evaluating embedding models in complex, real-world, memory-intensive scenarios.
+
+<p align="center">
+  <img src="./figures/corr.jpg" width="60%" />
+</p>
+
+
+## Citation
+If you find this benchmark useful, please consider giving a star and citation.
+```
+@misc{zhao2026lmeb,
+      title={LMEB: Long-horizon Memory Embedding Benchmark}, 
+      author={Xinping Zhao and Xinshuo Hu and Jiaxin Xu and Danyu Tang and Xin Zhang and Mengjia Zhou and Yan Zhong and Yao Zhou and Zifei Shan and Meishan Zhang and Baotian Hu and Min Zhang},
+      year={2026},
+      eprint={2603.12572},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.12572}, 
+}
+```
+
+## Contact
+If you encounter any issue, feel free to contact us via the email: <zhaoxinping@stu.hit.edu.cn> or <xinpingzhao@slai.edu.cn>
