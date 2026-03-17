@@ -1,0 +1,9 @@
+datasets==2.21.0
+mteb==2.3.0
+numpy==2.4.3
+pydantic==2.12.5
+safetensors==0.7.0
+torch==2.9.0
+tqdm==4.67.1
+transformers==4.57.3
+torch==2.7.0+cu126

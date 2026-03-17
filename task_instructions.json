@@ -1,0 +1,127 @@
+{
+    "EPBench": {
+        "Entities": "Given a specific event with time or location constraints, retrieve documents identifying the protagonists involved",
+        "Event_contents": "Given a query, retrieve documents that answer the query",
+        "Full_event_details": "Given time, location, entities, and event content, retrieve relevant documents about the event(s), including what occurred and any other pertinent information",
+        "Other_entities": "Given an event description with time/location and a known entities, retrieve passages describing the event and naming any additional involved entities",
+        "Spaces": "Given a query with constraints, retrieve passages that explicitly mention associated locations that satisfy those constraints",
+        "Times": "Given a specific event description, retrieve passages that contain when the event occurred"
+    },
+    "KnowMeBench": {
+        "adversarial_abstention": "Given a query, retrieve documents that answer the query",
+        "information_extraction": "Given a query, retrieve documents that answer the query",
+        "mind-body_interaction": "Given a mind-body interaction query, retrieve passages linking physical actions with internal states to answer the query",
+        "mnestic_trigger_analysis": "Given a mnestic trigger query, retrieve passages where sensory or associative cues trigger memories, highlighting the cue, recalled event, and context to answer the query",
+        "temporal_reasoning": "Given a temporally constrained query, retrieve passages that answer the question"
+    },
+    "LoCoMo": {
+        "adversarial": "Given a query, retrieve documents that answer the query",
+        "multi_hop": "Given a multi-hop question, retrieve documents from multiple sessions to answer the question",
+        "open_domain": "Given a question, retrieve user-provided context or external world-knowledge passages that answer the question",
+        "single_hop": "Given a query, retrieve documents that answer the query",
+        "temporal_reasoning": "Given a temporally grounded query, retrieve relevant passages that answer the question"
+    },
+    "LongMemEval": {
+        "knowledge_update": "Given a question, retrieve the latest information to answer the question",
+        "multi_session": "Given a query, retrieve documents that answer the query",
+        "single_session_assistant": "Given a query, retrieve documents that answer the query",
+        "single_session_preference": "Given a query, retrieve the user's stated preferences that can help answer the query",
+        "single_session_user": "Given a query, retrieve documents that answer the query",
+        "temporal_reasoning": "Given a temporal query, retrieve relevant passages that answer the query"
+    },
+    "REALTALK": {
+        "commonsense": "Given a query, retrieve documents that answer the query",
+        "multi_hop": "Given a multi-hop question, retrieve relevant passages that answer the query",
+        "temporal_reasoning": "Given a temporal query, retrieve relevant passages that answer the query"
+    },
+    "TMD": {
+        "content_time_qs": "Given a temporal query, retrieve relevant passages that answer the query",
+        "date_span_time_qs": "Given an absolute date span (DATE1–DATE2), retrieve dialogue occurring within this period",
+        "dates_time_qs": "Given a specific absolute date, retrieve dialogue from that date",
+        "day_span_time_qs": "Given a rolling recent window and the current date, retrieve dialogue that occurred within that period",
+        "earlier_today_time_qs": "Given an intra-day time cue and the current date, retrieve dialogue that occurred earlier today",
+        "last_named_day_time_qs": "Given a query for a specific weekday with the current date, retrieve dialogue from the most recent matching weekday",
+        "month_time_qs": "Given a specific month and the current date, retrieve dialogue occurring within that month",
+        "rel_day_time_qs": "Given a relative-day query and the current date, retrieve dialogue from the resolved date corresponding to that number of days ago",
+        "rel_month_time_qs": "Given a relative-month query with the current date, retrieve dialogue from the month corresponding to that number of months ago",
+        "rel_session_time_qs": "Given a relative-session query with current session index, retrieve dialogue from the session corresponding to that number of sessions ago",
+        "session_span_time_qs": "Given a session-span query (S1–S2), retrieve dialogue from sessions that fall within the specified range",
+        "session_time_qs": "Given a query for a specific session, retrieve dialogue from that session"
+    },
+    "MemBench": {
+        "aggregative": "Given a query, retrieve documents that answer the query",
+        "comparative": "Given a query, retrieve documents that answer the query",
+        "emotion": "Given a query with a timestamp, retrieve documents that capture emotional cues to infer most likely user sentiment",
+        "knowledge_updating": "Given a question, retrieve the latest information to answer the question",
+        "multi_hop": "Given a multi-hop query, retrieve documents that answer the query",
+        "multi_session_assistant": "Given a query, retrieve assistant messages containing past recommendations that help answer the query",
+        "post_processing": "Given a query, retrieve documents that answer the query",
+        "preference": "Given a query, retrieve the user's stated preferences that can help answer the query",
+        "single_hop": "Given a query, retrieve documents that answer the query", 
+        "single_session_assistant": "Given a query, retrieve assistant messages containing past recommendations that help answer the query"
+    },
+    "ConvoMem": {
+        "abstention_evidence": "Given a query, retrieve documents that answer the query",
+        "assistant_facts_evidence": "Given a query, retrieve assistant messages that answer the query",
+        "changing_evidence": "Given a question, retrieve the latest information to answer the question",
+        "implicit_connection_evidence": "Given a query, retrieve documents that answer the query",
+        "preference_evidence": "Given a query, retrieve the user's stated preferences that can help answer the query",
+        "user_evidence": "Given a query, retrieve documents that answer the query"
+    },
+    "QASPER": {
+        "QASPER": "Given a query, retrieve documents that answer the query"
+    },
+    "NovelQA": {
+        "Character": "Given a query, retrieve documents that answer the query",
+        "Meaning": "Given a query, retrieve documents that answer the query",
+        "Plot": "Given a query, retrieve documents that answer the query",
+        "Relation": "Given a query, retrieve documents that answer the query",
+        "Setting": "Given a query, retrieve documents that answer the query",
+        "Span": "Given a query, retrieve documents that answer the query",
+        "Times": "Given a query, retrieve all passages mentioning the event to answer the query"
+    },
+    "PeerQA": {
+        "PeerQA": "Given a query, retrieve documents that answer the query"
+    },
+    "CovidQA": {
+        "Covid-QA": "Given a query on COVID-19, retrieve documents that answer the query"
+    },
+    "ESGReports": {
+        "ESG-Reports": "Given a query, retrieve documents that answer the query"
+    },
+    "MLDR": {
+        "MLDR": "Given a query, retrieve documents that answer the query"
+    },
+    "LooGLE": {
+        "LongDepQA": "Given a long-dependency question, retrieve documents that answer the query",
+        "ShortDepQA": "Given a query, retrieve documents that answer the query"
+    },
+    "LMEB_SciFact": {
+        "LMEB_SciFact": "Given a scientific claim, retrieve documents that support or refute the claim"
+    },
+    "Gorilla": {
+        "gorilla_huggingface": "Given a task query, retrieve HuggingFace models to complete it",
+        "gorilla_pytorch": "Given a task query, retrieve TorchHub APIs to fulfill the query's needs",
+        "gorilla_tensor": "Given a task query, retrieve TensorHub APIs to meet the query’s requirements"
+    },
+    "ToolBench": {
+        "ToolBench": "Given a tool-use query, retrieve API documentations aligned with the needs of the query"
+    },
+    "ReMe": {
+        "generalized_query": "Given a generalized query, retrieve experience that is suitable for this query",
+        "task_query": "Given a query, retrieve the most relevant experience that aligns with the specified task requirements"
+    },
+    "Proced_mem_bench": {
+        "easy": "Given a query, retrieve useful procedures applicable to this query",
+        "medium": "Given a query, retrieve useful procedures applicable to this query",
+        "hard": "Given a query, retrieve useful procedures applicable to this query"
+    },
+    "MemGovern": {
+        "MemGovern": "Given a query, retrieve experiences or solutions that help to solve the query"
+    },
+    "DeepPlanning": {
+        "shopping_level1": "Given a query, retrieve items that satisfy the requirements",
+        "shopping_level2": "Given a query, retrieve items that satisfy the requirements",
+        "shopping_level3": "Given a query, retrieve items that satisfy the requirements"
+    }
+}
