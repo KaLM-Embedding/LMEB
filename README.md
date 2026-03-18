@@ -13,6 +13,9 @@
   <a href="https://arxiv.org/abs/2603.12572v1">
     <img src="https://img.shields.io/badge/Paper-LMEB-d4333f?logo=arxiv&logoColor=white&colorA=cccccc&colorB=d4333f&style=flat" alt="Paper">
   </a>
+   <a href="https://kalm-embedding.github.io/LMEB.github.io/">
+    <img src="https://img.shields.io/badge/Website-Homepage-d4333f?logo=Homepage&logoColor=white&colorA=cccccc&colorB=blue&style=flat" alt="homepage">
+  </a>
 </p>
 
 ## Why LMEB?
