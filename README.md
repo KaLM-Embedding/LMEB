@@ -21,7 +21,7 @@
   </a>
 </p>
 
-## Why LMEB?
+## 🔥 Why LMEB?
 
 LMEB fills a crucial gap in current embedding benchmarks, offering a standardized and reproducible evaluation that focuses on **long-term memory retrieval**. By utilizing both AI-generated and human-annotated datasets, LMEB provides a **rigorous testbed** for embedding models' ability to handle **long-horizon memory retrieval**.
 
