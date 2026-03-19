@@ -23,9 +23,7 @@
 
 ## 🔥 Why LMEB?
 
-LMEB fills a crucial gap in current embedding benchmarks, offering a standardized and reproducible evaluation that focuses on **long-term memory retrieval**. By utilizing both AI-generated and human-annotated datasets, LMEB provides a **rigorous testbed** for embedding models' ability to handle **long-horizon memory retrieval**.
-
-By evaluating the memory retrieval capabilities of embedding models, **a crucial ability for memory-augmented systems like OpenClaw🦞**, LMEB helps OpenClaw 🦞 identify the most suitable embedding models, **enhancing its ability to adapt, remember, and make personalized, user-aware decisions.**
+LMEB fills a crucial gap in current embedding benchmarks, offering a standardized and reproducible evaluation that focuses on **long-term memory retrieval**. By evaluating the memory retrieval capabilities of embedding models, **a crucial ability for memory-augmented systems like OpenClaw🦞**, LMEB helps OpenClaw 🦞 identify the most suitable embedding models, **enhancing its ability to adapt, remember, and make personalized, user-aware decisions.**
 
 ## Introduction
 
