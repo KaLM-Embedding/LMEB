@@ -16,6 +16,9 @@
    <a href="https://kalm-embedding.github.io/LMEB.github.io/">
     <img src="https://img.shields.io/badge/Website-Homepage-d4333f?logo=Homepage&logoColor=white&colorA=cccccc&colorB=blue&style=flat" alt="homepage">
   </a>
+  <a href="https://github.com/KaLM-Embedding/LMEB/pulls">
+    <img src="https://img.shields.io/badge/Contributions-Welcome-blue.svg?style=flat">
+  </a>
 </p>
 
 ## Why LMEB?
