@@ -60,6 +60,7 @@ huggingface-cli download --repo-type dataset --resume-download KaLM-Embedding/LM
 ## Evaluation
 Run LMEB evaluation using BM25
 ```bash
+pip install bm25s==0.3.6 PyStemmer==3.0.0
 bash ./scripts/run_bm25.sh
 ```
 Run LMEB evaluation WITH task-specific instructions (w_inst = with instruction)
