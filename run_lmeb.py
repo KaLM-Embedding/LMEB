@@ -19,6 +19,8 @@ from mteb.models.sentence_transformer_wrapper import SentenceTransformerMultimod
 import lmeb_benchmark
 from mteb.benchmarks import get_benchmark
 
+from bm25 import bm25_loader
+
 logging.basicConfig(
     format="%(levelname)s|%(asctime)s|%(name)s#%(lineno)s: %(message)s",
     datefmt="%Y/%m/%d %H:%M:%S",
@@ -75,7 +77,10 @@ class EvalArguments:
                 setattr(self, name, json.loads(attr))
 
 def get_model(model_path: str, precision: str = 'fp16', **kwargs):
-    model = STWrapper(model_path, precision=precision, **kwargs)
+    if model_path == "bm25":
+        model = bm25_loader(model_path, **kwargs)
+    else:
+        model = STWrapper(model_path, precision=precision, **kwargs)
     return model
 
 def get_tasks(names: list[str] | None, languages: list[str] | None = None, benchmark: str | None = None):
@@ -148,7 +153,7 @@ def main():
     device = 'cuda' if torch.cuda.device_count() >= 1 else 'cpu'
     model = get_model(args.model_path, precision=args.precision, **args.model_kwargs)
     
-    if model.mteb_model_meta.name is None:
+    if not "bm25" in args.model_path and model.mteb_model_meta.name is None:
         if "use_instruction" in args.model_kwargs and not args.model_kwargs['use_instruction']:
             model.mteb_model_meta.revision = "wo_inst"
     if args.only_load:
