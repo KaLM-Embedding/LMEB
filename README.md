@@ -58,6 +58,10 @@ huggingface-cli download --repo-type dataset --resume-download KaLM-Embedding/LM
 ```
 
 ## Evaluation
+Run LMEB evaluation using BM25
+```bash
+bash ./scripts/run_bm25.sh
+```
 Run LMEB evaluation WITH task-specific instructions (w_inst = with instruction)
 ```bash
 bash ./scripts/run_lmeb_w_inst.sh
