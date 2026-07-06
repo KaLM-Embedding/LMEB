@@ -21,6 +21,9 @@
   </a>
 </p>
 
+🚀 **LMEB is now officially supported by [MTEB](https://github.com/embeddings-benchmark/mteb).**  
+You can evaluate embedding models on LMEB through the standard [MTEB evaluation framework](https://github.com/embeddings-benchmark/mteb). After running the benchmark, results can be submitted to the [MTEB results repository](https://github.com/embeddings-benchmark/results). Once merged, the LMEB leaderboard will be updated on the [MTEB Leaderboard](https://mteb-leaderboard.hf.space/benchmark/LMEB).
+
 ## 🔥 Why LMEB?
 
 LMEB fills a crucial gap in current embedding benchmarks, offering a standardized and reproducible evaluation that focuses on **long-term memory retrieval**. By evaluating the memory retrieval capabilities of embedding models, **a crucial ability for memory-augmented systems like OpenClaw🦞**, LMEB helps OpenClaw 🦞 identify the most suitable embedding models, **enhancing its ability to adapt, remember, and make personalized, user-aware decisions.**
